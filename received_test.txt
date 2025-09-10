@@ -1,0 +1,2 @@
+Xin chào Server!
+Đây là file test từ Client.
