@@ -19,98 +19,49 @@
 
 </div>
 
-1. Giới thiệu hệ thống
+1.Giới thiệu hệ thống
+Hệ thống [Tên hệ thống] được phát triển nhằm mục đích [mục đích chính của hệ thống, ví dụ: quản lý dữ liệu, truyền file, hỗ trợ giao tiếp...]. Hệ thống cung cấp các chức năng chính như [liệt kê các chức năng nổi bật, ví dụ: gửi nhận file qua mạng TCP, quản lý người dùng, bảo mật dữ liệu...], giúp người dùng thao tác nhanh chóng và hiệu quả trong môi trường mạng.
 
-Hệ thống truyền file bằng TCP được xây dựng nhằm mục đích cho phép người dùng gửi và nhận file giữa máy khách (Client) và máy chủ (Server) thông qua giao thức TCP. Với cơ chế kết nối đáng tin cậy (reliable connection), TCP đảm bảo dữ liệu được truyền đi đầy đủ, theo đúng thứ tự và không bị mất mát.
-Ứng dụng này mô phỏng hoạt động của các dịch vụ thực tế như FTP hoặc HTTP trong việc truyền tải dữ liệu, đồng thời giúp người dùng hiểu rõ hơn về cách thức giao tiếp mạng qua socket lập trình.
+2.Ngôn ngữ & Công nghệ chính
+Ngôn ngữ lập trình: Java
+Giao thức truyền thông: TCP/IP
+Thư viện sử dụng: Java IO, Java Net
+Môi trường phát triển: JDK 8 trở lên, IDE IntelliJ IDEA / Eclipse
+Hệ điều hành hỗ trợ: Windows, Linux, macOS
 
-2. Ngôn ngữ & Công nghệ chính
+3.Hình ảnh các chức năng
+Giao diện Server nhận file
 
-Ngôn ngữ lập trình: Python / Java / C (tùy phiên bản triển khai)
+Server nhận file
 
-Công nghệ chính:
+Giao diện Client gửi file
 
-Socket Programming (lập trình socket)
+Client gửi file
 
-Giao thức TCP/IP
+Thông báo trạng thái truyền file
 
-Xử lý đa luồng (Multi-threading) để hỗ trợ nhiều client cùng lúc
+Thông báo trạng thái
 
-Hệ thống File I/O để đọc/ghi dữ liệu
+(Bạn có thể thay thế các link_ảnh_ bằng hình ảnh thực tế của hệ thống)*
 
-3. Hình ảnh các chức năng
+4.Các project đã thực hiện dựa trên Platform
+Project 1: Hệ thống truyền file qua TCP đơn giản
+Project 2: Ứng dụng chat TCP đa luồng
+Project 3: Hệ thống quản lý truyền tải dữ liệu mạng LAN
+(Liệt kê các dự án hoặc ứng dụng bạn đã phát triển dựa trên nền tảng hoặc công nghệ tương tự)
 
-Giao diện dòng lệnh (CLI) của Client gửi yêu cầu đến Server
+5.Các bước cài đặt
+Cài đặt JDK: Tải và cài đặt JDK 8 hoặc mới hơn từ trang chính thức của Oracle hoặc OpenJDK.
+Tải source code: Clone hoặc tải mã nguồn của hệ thống từ repository.
+Biên dịch và chạy Server:
+Mở terminal hoặc IDE.
+Chạy file FileReceiver.java.
+Biên dịch và chạy Client:
+Mở terminal hoặc IDE.
+Chỉnh sửa đường dẫn file trong FileSender.java.
+Chạy file FileSender.java.
+Kiểm tra kết nối: Đảm bảo server và client cùng mạng hoặc có thể kết nối qua IP và port đã cấu hình.
+Truyền file: Thực hiện gửi file từ client, server sẽ nhận và lưu file.
 
-Màn hình Server hiển thị trạng thái kết nối và tiến trình truyền file
-
-Thông báo hoàn tất quá trình gửi/nhận file
-(Có thể chèn ảnh chụp màn hình kết quả chạy chương trình tại đây)
-
-🚀 4. Các project đã thực hiện dựa trên Platform
-
-Ứng dụng truyền file đơn giản: Client gửi một file bất kỳ đến Server.
-
-Hệ thống truyền file nhiều client: Cho phép nhiều người dùng kết nối đến cùng một Server và truyền file song song.
-
-Mở rộng tính năng:
-
-Hỗ trợ truyền nhiều loại file (ảnh, văn bản, PDF, nhạc, video).
-
-Giao diện người dùng cơ bản (GUI) để thao tác dễ dàng hơn.
-
-Tích hợp cơ chế mã hóa để tăng tính bảo mật.
-
-5. Các bước cài đặt
-
-Chuẩn bị môi trường
-
-Cài đặt Python/Java/C (tùy ngôn ngữ sử dụng).
-
-Cài đặt công cụ lập trình: VS Code, PyCharm hoặc IntelliJ.
-
-Đảm bảo máy có hỗ trợ TCP/IP (mặc định trên mọi hệ điều hành).
-
-Tải mã nguồn
-
-Clone hoặc tải project từ GitHub / thư mục đã cung cấp.
-
-Giải nén project (nếu ở dạng .zip).
-
-Cấu hình hệ thống
-
-Mở file cấu hình (nếu có) để thiết lập:
-
-Địa chỉ IP Server.
-
-Port truyền file.
-
-Thư mục lưu trữ file nhận được.
-
-Chạy chương trình Server
-
-Trên máy chủ, mở terminal/cmd và chạy:
-
-python server.py
-
-
-hoặc tương ứng với ngôn ngữ bạn dùng.
-
-Server sẽ khởi động và lắng nghe các kết nối đến từ Client.
-
-Chạy chương trình Client
-
-Trên máy Client, mở terminal/cmd và chạy:
-
-python client.py
-
-
-Nhập đường dẫn file cần gửi → Client sẽ kết nối tới Server qua TCP và truyền file.
-
-Kiểm tra kết quả
-
-Kiểm tra thư mục lưu file tại Server để đảm bảo file đã được truyền thành công.
-
-Đối chiếu dung lượng và nội dung file để xác nhận tính toàn vẹn dữ liệu.
 
 📌 *Lưu ý: Có thể tùy chỉnh tên database, tài khoản admin, giao diện theo nhu cầu.*
