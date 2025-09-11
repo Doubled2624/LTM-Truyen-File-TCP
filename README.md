@@ -24,6 +24,7 @@
 Hệ thống Truyền File qua TCP được phát triển nhằm mục đích quản lý dữ liệu, truyền file, hỗ trợ giao tiếp. Hệ thống cung cấp các chức năng chính như gửi nhận file qua mạng TCP, quản lý người dùng, bảo mật dữ liệu, giúp người dùng thao tác nhanh chóng và hiệu quả trong môi trường mạng.
 
 2.Ngôn ngữ & Công nghệ chính
+
 Ngôn ngữ lập trình: Java
 Giao thức truyền thông: TCP/IP
 Thư viện sử dụng: Java IO, Java Net
@@ -32,17 +33,13 @@ Hệ điều hành hỗ trợ: Windows, Linux, macOS
 
 3.Hình ảnh các chức năng
 
-- Giao diện Server:
-![alt text][def]
+- Giao diện Server:![alt text][def]
 
-- Giao diện Client:
-![alt text][def2]
+- Giao diện Client:![alt text][def2]
 
-- Giao diện Client gửi file:
-![alt text][def3]
+- Giao diện Client gửi file:![alt text][def3]
 
-- Giao diện Server nhận file:
-![alt text][def4]
+- Giao diện Server nhận file:![alt text][def4]
 
 4.Các project đã thực hiện dựa trên Platform
 
