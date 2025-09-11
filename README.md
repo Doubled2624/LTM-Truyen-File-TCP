@@ -25,21 +25,29 @@ Hệ thống Truyền File qua TCP được phát triển nhằm mục đích qu
 
 2.Ngôn ngữ & Công nghệ chính
 
-Ngôn ngữ lập trình: Java
-Giao thức truyền thông: TCP/IP
-Thư viện sử dụng: Java IO, Java Net
-Môi trường phát triển: JDK 8 trở lên, IDE IntelliJ IDEA / Eclipse
-Hệ điều hành hỗ trợ: Windows, Linux, macOS
+- Ngôn ngữ lập trình: Java
+  
+- Giao thức truyền thông: TCP/IP
+  
+- Thư viện sử dụng: Java IO, Java Net
+  
+- Môi trường phát triển: JDK 8 trở lên, IDE IntelliJ IDEA / Eclipse
+  
+- Hệ điều hành hỗ trợ: Windows, Linux, macOS
 
 3.Hình ảnh các chức năng
 
-- Giao diện Server:![alt text][def]
+- Giao diện Server:
+![alt text][def]
 
-- Giao diện Client:![alt text][def2]
+- Giao diện Client:
+![alt text][def2]
 
-- Giao diện Client gửi file:![alt text][def3]
+- Giao diện Client gửi file:
+![alt text][def3]
 
-- Giao diện Server nhận file:![alt text][def4]
+- Giao diện Server nhận file: 
+![alt text][def4]
 
 4.Các project đã thực hiện dựa trên Platform
 
@@ -54,22 +62,18 @@ Cài đặt JDK: Tải và cài đặt JDK 8 hoặc mới hơn từ trang chính
 Tải source code: Clone hoặc tải mã nguồn của hệ thống từ repository.
 Biên dịch và chạy Server:
 Mở terminal hoặc IDE.
-Chạy file FileReceiver.java.
+Chạy file Client.java.
 Biên dịch và chạy Client:
 Mở terminal hoặc IDE.
 Chỉnh sửa đường dẫn file trong FileSender.java.
-Chạy file FileSender.java.
+Chạy file Sever.java.
 Kiểm tra kết nối: Đảm bảo server và client cùng mạng hoặc có thể kết nối qua IP và port đã cấu hình.
 Truyền file: Thực hiện gửi file từ client, server sẽ nhận và lưu file.
 
 
 📌 *Lưu ý: Có thể tùy chỉnh tên database, tài khoản admin, giao diện theo nhu cầu.*
 
-
 [def]: image.png
-
 [def2]: image-1.png
-
 [def3]: image-2.png
-
 [def4]: image-3.png
