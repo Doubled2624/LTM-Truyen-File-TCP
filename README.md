@@ -30,19 +30,15 @@ Môi trường phát triển: JDK 8 trở lên, IDE IntelliJ IDEA / Eclipse
 Hệ điều hành hỗ trợ: Windows, Linux, macOS
 
 3.Hình ảnh các chức năng
-Giao diện Server nhận file
+- Giao diện Server:
+![alt text][def]
+- Giao diện Client:
+![alt text][def2]
+- Giao diện Client gửi file:
+![alt text][def3]
+- Giao diện Server nhận file:
+![alt text][def4]
 
-Server nhận file
-
-Giao diện Client gửi file
-
-Client gửi file
-
-Thông báo trạng thái truyền file
-
-Thông báo trạng thái
-
-(Bạn có thể thay thế các link_ảnh_ bằng hình ảnh thực tế của hệ thống)*
 
 4.Các project đã thực hiện dựa trên Platform
 Project 1: Hệ thống truyền file qua TCP đơn giản
@@ -65,3 +61,9 @@ Truyền file: Thực hiện gửi file từ client, server sẽ nhận và lưu
 
 
 📌 *Lưu ý: Có thể tùy chỉnh tên database, tài khoản admin, giao diện theo nhu cầu.*
+
+
+[def]: image.png
+[def2]: image-1.png
+[def3]: image-2.png
+[def4]: image-3.png
