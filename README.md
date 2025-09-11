@@ -37,17 +37,21 @@ Hệ thống Truyền File qua TCP được phát triển nhằm mục đích qu
 
 3.Hình ảnh các chức năng
 
-- Giao diện Server:
+Hình 1:
 ![alt text][def]
+- Giao diện Server.
 
-- Giao diện Client:
+Hình 2:
 ![alt text][def2]
+- Giao diện Client.
 
-- Giao diện Client gửi file:
+Hình 3:
 ![alt text][def3]
+- Giao diện Client gửi file.
 
-- Giao diện Server nhận file: 
+Hình 4:
 ![alt text][def4]
+- Giao diện Server nhận file.
 
 4.Các project đã thực hiện dựa trên Platform
 
