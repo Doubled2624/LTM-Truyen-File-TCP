@@ -20,7 +20,8 @@
 </div>
 
 1.Giới thiệu hệ thống
-Hệ thống [Tên hệ thống] được phát triển nhằm mục đích [mục đích chính của hệ thống, ví dụ: quản lý dữ liệu, truyền file, hỗ trợ giao tiếp...]. Hệ thống cung cấp các chức năng chính như [liệt kê các chức năng nổi bật, ví dụ: gửi nhận file qua mạng TCP, quản lý người dùng, bảo mật dữ liệu...], giúp người dùng thao tác nhanh chóng và hiệu quả trong môi trường mạng.
+
+Hệ thống Truyền File qua TCP được phát triển nhằm mục đích quản lý dữ liệu, truyền file, hỗ trợ giao tiếp. Hệ thống cung cấp các chức năng chính như gửi nhận file qua mạng TCP, quản lý người dùng, bảo mật dữ liệu, giúp người dùng thao tác nhanh chóng và hiệu quả trong môi trường mạng.
 
 2.Ngôn ngữ & Công nghệ chính
 Ngôn ngữ lập trình: Java
@@ -30,6 +31,7 @@ Môi trường phát triển: JDK 8 trở lên, IDE IntelliJ IDEA / Eclipse
 Hệ điều hành hỗ trợ: Windows, Linux, macOS
 
 3.Hình ảnh các chức năng
+
 - Giao diện Server:
 ![alt text][def]
 - Giao diện Client:
@@ -41,12 +43,14 @@ Hệ điều hành hỗ trợ: Windows, Linux, macOS
 
 
 4.Các project đã thực hiện dựa trên Platform
+
 Project 1: Hệ thống truyền file qua TCP đơn giản
 Project 2: Ứng dụng chat TCP đa luồng
 Project 3: Hệ thống quản lý truyền tải dữ liệu mạng LAN
 (Liệt kê các dự án hoặc ứng dụng bạn đã phát triển dựa trên nền tảng hoặc công nghệ tương tự)
 
 5.Các bước cài đặt
+
 Cài đặt JDK: Tải và cài đặt JDK 8 hoặc mới hơn từ trang chính thức của Oracle hoặc OpenJDK.
 Tải source code: Clone hoặc tải mã nguồn của hệ thống từ repository.
 Biên dịch và chạy Server:
