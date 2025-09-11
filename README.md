@@ -31,7 +31,6 @@ Môi trường phát triển: JDK 8 trở lên, IDE IntelliJ IDEA / Eclipse
 Hệ điều hành hỗ trợ: Windows, Linux, macOS
 
 3.Hình ảnh các chức năng
-
 - Giao diện Server:
 ![alt text][def]
 - Giao diện Client:
@@ -40,8 +39,6 @@ Hệ điều hành hỗ trợ: Windows, Linux, macOS
 ![alt text][def3]
 - Giao diện Server nhận file:
 ![alt text][def4]
-
-
 4.Các project đã thực hiện dựa trên Platform
 
 Project 1: Hệ thống truyền file qua TCP đơn giản
@@ -68,6 +65,9 @@ Truyền file: Thực hiện gửi file từ client, server sẽ nhận và lưu
 
 
 [def]: image.png
+
 [def2]: image-1.png
+
 [def3]: image-2.png
+
 [def4]: image-3.png
