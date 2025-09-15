@@ -1,4 +1,4 @@
-<h2 align="center">
+<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/677be588-90d5-436f-8c22-7a89a5b594f0" /><h2 align="center">
     <a href="https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin">
     🎓 Faculty of Information Technology (DaiNam University)
     </a>
@@ -19,11 +19,11 @@
 
 </div>
 
-1.Giới thiệu hệ thống
+📖1.Giới thiệu hệ thống
 
 Hệ thống Truyền File qua TCP được phát triển nhằm mục đích quản lý dữ liệu, truyền file, hỗ trợ giao tiếp. Hệ thống cung cấp các chức năng chính như gửi nhận file qua mạng TCP, quản lý người dùng, bảo mật dữ liệu, giúp người dùng thao tác nhanh chóng và hiệu quả trong môi trường mạng.
 
-2.Ngôn ngữ & Công nghệ chính
+📌 2.Ngôn ngữ & Công nghệ chính
 
 - Ngôn ngữ lập trình: Java
   
@@ -35,7 +35,7 @@ Hệ thống Truyền File qua TCP được phát triển nhằm mục đích qu
   
 - Hệ điều hành hỗ trợ: Windows, Linux, macOS
 
-3.Hình ảnh các chức năng
+💻3.Hình ảnh các chức năng
 
 Hình 1:
 ![alt text][def]
@@ -60,7 +60,7 @@ Project 2: Ứng dụng chat TCP đa luồng
 Project 3: Hệ thống quản lý truyền tải dữ liệu mạng LAN
 (Liệt kê các dự án hoặc ứng dụng bạn đã phát triển dựa trên nền tảng hoặc công nghệ tương tự)
 
-5.Các bước cài đặt
+⚙️5.Các bước cài đặt
 
 Cài đặt JDK: Tải và cài đặt JDK 8 hoặc mới hơn từ trang chính thức của Oracle hoặc OpenJDK.
 Tải source code: Clone hoặc tải mã nguồn của hệ thống từ repository.
