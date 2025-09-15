@@ -36,22 +36,23 @@ Hệ thống Truyền File qua TCP được phát triển nhằm mục đích qu
 - Hệ điều hành hỗ trợ: Windows, Linux, macOS
 
 💻3.Hình ảnh các chức năng
-
-Hình 1:
-![alt text][def]
 - Giao diện Server.
+<p align="center"> <img width="800" height="800" alt="image" src=image.png/> </p>
+<p align="center"><i>Hình ảnh 1</i></p>
 
-Hình 2:
-![alt text][def2]
 - Giao diện Client.
 
-Hình 3:
-![alt text][def3]
+<p align="center"> <img width="800" height="800" alt="image" src=image-1.png/> </p>
+<p align="center"><i>Hình ảnh 1</i></p>
+
 - Giao diện Client gửi file.
 
-Hình 4:
-![alt text][def4]
+<p align="center"> <img width="800" height="800" alt="image" src=image-2.png/> </p>
+<p align="center"><i>Hình ảnh 1</i></p>
+
 - Giao diện Server nhận file.
+<p align="center"> <img width="800" height="800" alt="image" src=image-3.png/> </p>
+<p align="center"><i>Hình ảnh 1</i></p>
 
 4.Các project đã thực hiện dựa trên Platform
 
