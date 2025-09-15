@@ -43,16 +43,16 @@ Hệ thống Truyền File qua TCP được phát triển nhằm mục đích qu
 - Giao diện Client.
 
 <p align="center"> <img width="800" height="800" alt="image" src=image-1.png/> </p>
-<p align="center"><i>Hình ảnh 1</i></p>
+<p align="center"><i>Hình ảnh 2</i></p>
 
 - Giao diện Client gửi file.
 
 <p align="center"> <img width="800" height="800" alt="image" src=image-2.png/> </p>
-<p align="center"><i>Hình ảnh 1</i></p>
+<p align="center"><i>Hình ảnh 3<-/i></p>
 
 - Giao diện Server nhận file.
 <p align="center"> <img width="800" height="800" alt="image" src=image-3.png/> </p>
-<p align="center"><i>Hình ảnh 1</i></p>
+<p align="center"><i>Hình ảnh 4</i></p>
 
 4.Các project đã thực hiện dựa trên Platform
 
