@@ -19,23 +19,51 @@
 
 </div>
 
-📖1.Giới thiệu hệ thống
 
-Hệ thống Truyền File qua TCP được phát triển nhằm mục đích quản lý dữ liệu, truyền file, hỗ trợ giao tiếp. Hệ thống cung cấp các chức năng chính như gửi nhận file qua mạng TCP, quản lý người dùng, bảo mật dữ liệu, giúp người dùng thao tác nhanh chóng và hiệu quả trong môi trường mạng.
+## 📖 1. Giới thiệu hệ thống
+Ứng dụng **Chat & Truyền File Client–Server** được phát triển bằng **Java** sử dụng giao thức **TCP**.  
+Hệ thống cho phép nhiều người dùng giao tiếp **thời gian thực** và **chia sẻ file** qua mạng, giúp quản lý dữ liệu và hỗ trợ cộng tác nhanh chóng, hiệu quả.  
 
-📌 2.Ngôn ngữ & Công nghệ chính
+- **Server**: Trung tâm quản lý kết nối, tiếp nhận và phân phối tin nhắn/file.  
+- **Client**: Giao diện để gửi/nhận tin nhắn, chọn và truyền file.  
+- **Lưu trữ dữ liệu**: Lịch sử chat được lưu vào file văn bản (thay vì cơ sở dữ liệu) để triển khai đơn giản.  
 
-- Ngôn ngữ lập trình: Java
-  
-- Giao thức truyền thông: TCP/IP
-  
-- Thư viện sử dụng: Java IO, Java Net
-  
-- Môi trường phát triển: JDK 8 trở lên, IDE IntelliJ IDEA / Eclipse
-  
-- Hệ điều hành hỗ trợ: Windows, Linux, macOS
+---
 
-💻3.Hình ảnh các chức năng
+## ⚙️ Chức năng chính
+
+### 🖥️ Server
+- Quản lý kết nối Client (đa luồng).  
+- Phân phối tin nhắn & file giữa các Client.  
+- Lưu lịch sử chat kèm timestamp.  
+- Xóa toàn bộ lịch sử khi cần.  
+- Xử lý lỗi & ngắt kết nối.  
+
+### 💻 Client
+- Kết nối đến Server qua IP + Port.  
+- Gửi & nhận **tin nhắn**.  
+- Gửi & nhận **file**.  
+- Giao diện **Java Swing**: vùng hiển thị chat, ô nhập văn bản, nút gửi, chọn file.  
+- Quản lý trạng thái: hiển thị khi mất kết nối, lỗi gửi/nhận.  
+
+### 🌐 Hệ thống
+- **TCP Socket**: sử dụng `ServerSocket` & `Socket`, hỗ trợ nhiều Client đồng thời.  
+- **Trung gian quản lý dữ liệu**: tất cả tin nhắn & file đều đi qua Server.  
+- **File I/O**: ghi lịch sử chat (append mode, `LocalDateTime`).  
+- **Bảo mật & xử lý lỗi**: log tại Server, thông báo lỗi ở Client.  
+
+---
+
+## 🛠️ 2. Công nghệ sử dụng
+- **Java Core**  
+- **Multithreading (đa luồng)**  
+- **Java Swing** (GUI)  
+- **Java Sockets (TCP/IP)**  
+- **File I/O**  
+
+---
+
+## 🚀 3. Hình ảnh các chức năng
 - Giao diện Server.
 <p align="center"> <img width="800" height="800" alt="image" src=image.png/> </p>
 <p align="center"><i>Hình ảnh 1</i></p>
@@ -54,7 +82,7 @@ Hệ thống Truyền File qua TCP được phát triển nhằm mục đích qu
 <p align="center"> <img width="800" height="800" alt="image" src=image-3.png/> </p>
 <p align="center"><i>Hình ảnh 4</i></p>
 
-4.Các project đã thực hiện dựa trên Platform
+## 📝 4. Hướng dẫn cài đặt và sử dụng
 
 Project 1: Hệ thống truyền file qua TCP đơn giản
 Project 2: Ứng dụng chat TCP đa luồng
@@ -77,6 +105,15 @@ Truyền file: Thực hiện gửi file từ client, server sẽ nhận và lưu
 
 
 📌 *Lưu ý: Có thể tùy chỉnh tên database, tài khoản admin, giao diện theo nhu cầu.*
+
+## Thông tin liên hệ  
+Họ tên: Bùi Tuấn Dương .  
+Lớp: CNTT 16-03.  
+Email: buibanh2k4@gmail.com.
+
+© 2025 AIoTLab, Faculty of Information Technology, DaiNam University. All rights reserved.
+
+---
 
 [def]: image.png
 [def2]: image-1.png
